@@ -1,0 +1,629 @@
+
+==================== FINAL INTERFACE ====================
+2016-08-10 22:11:37.414166 UTC
+
+interface Clean_0pEjWvA4UZU9s2xRj7FCxW:Routines 7102
+  interface hash: 2a9b9f3d5bf6625cb34adee2ee43424e
+  ABI hash: c770ae4c42de80d923b5d4c9b8f361ef
+  export-list hash: 7c529acd892a9817d0d647e0872fb276
+  orphan hash: 2544bfee5884c7b55ef38c8d3b8c7091
+  flag hash: 56b9a755d22be00f2eba50f3628a69c7
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Routines.imdb
+  Routines.path1
+  Routines.process
+  Routines.yelp
+module dependencies: Utils
+package dependencies: array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ
+                      base-4.8.1.0 binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      conduit-1.2.6@condu_45tiELg0iTSBn0FnBSBqZx
+                      conduit-extra-1.1.9.2@condu_Bi9wp1IotoiJYkeromri5R
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o
+                      directory-1.2.2.0@direc_KowvXytSqazBcvN7MGpFtg
+                      exceptions-0.8.0.2@excep_8GsEeHgaIks3pVGk6GaELJ
+                      filepath-1.4.0.0@filep_KsGE6pHE5eZHSN90ZVax6A ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+                      lifted-base-0.2.3.6@lifte_K3cQFA6mRg85rpDaA9numU
+                      mmorph-1.0.4@mmorp_8dNpUU8QFPe77rrwKAb20b
+                      monad-control-1.0.0.4@monad_3XCDr1mqlERGZgaxuwJF6b
+                      mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU
+                      resourcet-1.1.7@resou_5dZgZMYiA0Q8JAIyQrczuN
+                      stm-2.4.4@stm_C1kFMnPqFjvDhFjgMZGUpr
+                      streaming-commons-0.1.15@strea_3v5172gtEq9GC3eJqjsG2l
+                      text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh
+                      time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH
+                      transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X
+                      transformers-base-0.4.4@trans_88TAFm21vtn2NrYUppy50c
+                      unix-2.7.1.0@unix_A3WgcI5QiHK4PDo4jSYdwQ
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         conduit-1.2.6@condu_45tiELg0iTSBn0FnBSBqZx:Data.Conduit.List
+         stm-2.4.4@stm_C1kFMnPqFjvDhFjgMZGUpr:Control.Monad.STM
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Format.Parse
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X:Control.Monad.Trans.Error
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Functor.Identity
+                         base-4.8.1.0:Data.Monoid base-4.8.1.0:Data.Type.Equality
+                         base-4.8.1.0:Data.Void base-4.8.1.0:GHC.Exts
+                         base-4.8.1.0:GHC.Generics
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         monad-control-1.0.0.4@monad_3XCDr1mqlERGZgaxuwJF6b:Control.Monad.Trans.Control
+                         resourcet-1.1.7@resou_5dZgZMYiA0Q8JAIyQrczuN:Control.Monad.Trans.Resource.Internal
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+import  -/  Utils 348a2670cb08ea5909c91faa90dc3309
+  exports: 3fc4efaecd64256720e09c6e599e8ade
+  foldStrip e5e7c26034b95409cc7cae9e3434036a
+  fromByte 058676099030068d18fb403e73c49f77
+  toByte 7e4d398e16a3d26c336b14306dfe841f
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.IO c40fa9051eafbe02c69624c2ae0f498f
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString 4fc4526fe2a6e2567922115e2a8a149a
+import  -/  bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Internal 568a1a8b80fb4a973e45859a280b36aa
+import  -/  conduit-1.2.6@condu_45tiELg0iTSBn0FnBSBqZx:Data.Conduit cd5127c45231ea2e82d112a4aaffdf9a
+import  -/  conduit-1.2.6@condu_45tiELg0iTSBn0FnBSBqZx:Data.Conduit.Internal.Conduit f68c93bdcb6494880795c8de960f6035
+import  -/  conduit-1.2.6@condu_45tiELg0iTSBn0FnBSBqZx:Data.Conduit.List eefd7ea38d7c430544f9e7c50aee0b4d
+import  -/  conduit-extra-1.1.9.2@condu_Bi9wp1IotoiJYkeromri5R:Data.Conduit.Binary b69658d66dd0215835fe8bd0be729dba
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  resourcet-1.1.7@resou_5dZgZMYiA0Q8JAIyQrczuN:Control.Monad.Trans.Resource f6d499fe559545fb4c2c8ab12c726c5c
+72ff88c712ccd2183f82bd47a6ff5316
+  $s$$1 ::
+    GHC.Base.String
+    -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a
+  {- Arity: 1, Strictness: <B,U>b,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a13 eta :: [GHC.Types.Char] ->
+                 GHC.Err.error
+                   @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                        GHC.Types.IO a13)
+                   eta) -}
+e67bc7809dd36de17be8097571ca1e02
+  $s$$2 ::
+    GHC.Base.Applicative
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Routines.$s$$_$s$fApplicativeResourceT -}
+96826c77acb00a3ee05c95e86f62f8c2
+  $s$$3 ::
+    GHC.Base.Functor
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Routines.$s$$_$s$fFunctorResourceT -}
+24033fdf0cae7a797d4c6fdc0aff6cc4
+  $s$$_$s$fApplicativeResourceT ::
+    GHC.Base.Applicative
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  Routines.$s$$3
+                  Routines.$s$$_$s$fApplicativeResourceT_$cpure
+                  (Control.Monad.Trans.Resource.Internal.$fApplicativeResourceT_$c<*>
+                     @ GHC.Types.IO
+                     Routines.$s$$3
+                     GHC.Base.$fApplicativeIO)
+                  Routines.$s$$_$s$fApplicativeResourceT_$c*>
+                  Routines.$s$$_$s$fApplicativeResourceT_$c<* -}
+49bf6247230cb1e04f5049d68bcaf505
+  $s$$_$s$fApplicativeResourceT_$c*> ::
+    Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a
+    -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO b
+    -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U(U,A)))><L,1*C1(C1(U(U,U)))><L,U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a13
+                   @ b
+                   eta :: Control.Monad.Trans.Resource.Internal.ResourceT
+                            GHC.Types.IO a13
+                   eta1 :: Control.Monad.Trans.Resource.Internal.ResourceT
+                             GHC.Types.IO b
+                   eta2 :: GHC.IORef.IORef
+                             Control.Monad.Trans.Resource.Internal.ReleaseMap ->
+                 GHC.Base.$fApplicativeIO_$sap
+                   @ b
+                   @ b
+                   ((Control.Monad.Trans.Resource.Internal.$fFunctorResourceT_$c<$
+                       @ GHC.Types.IO
+                       GHC.Base.$fFunctorIO
+                       @ (b -> b)
+                       @ a13
+                       (GHC.Base.id @ b)
+                       eta)
+                      `cast`
+                    (Control.Monad.Trans.Resource.Internal.NTCo:ResourceT[0]
+                         <GHC.Types.IO>_R <b -> b>_N)
+                      eta2)
+                   (eta1
+                      `cast`
+                    (Control.Monad.Trans.Resource.Internal.NTCo:ResourceT[0]
+                         <GHC.Types.IO>_R <b>_N)
+                      eta2))
+                  `cast`
+                (forall a13 b.
+                 <Control.Monad.Trans.Resource.Internal.ResourceT
+                    GHC.Types.IO a13>_R
+                 ->_R <Control.Monad.Trans.Resource.Internal.ResourceT
+                         GHC.Types.IO b>_R
+                 ->_R Sym (Control.Monad.Trans.Resource.Internal.NTCo:ResourceT[0]
+                               <GHC.Types.IO>_R <b>_N)) -}
+64e2004e29fe826a3606a6db9dac8d08
+  $s$$_$s$fApplicativeResourceT_$c<* ::
+    Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a
+    -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO b
+    -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U(U,U)))><L,1*C1(C1(U(U,A)))><L,U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a13
+                   @ b
+                   eta :: Control.Monad.Trans.Resource.Internal.ResourceT
+                            GHC.Types.IO a13
+                   eta1 :: Control.Monad.Trans.Resource.Internal.ResourceT
+                             GHC.Types.IO b
+                   eta2 :: GHC.IORef.IORef
+                             Control.Monad.Trans.Resource.Internal.ReleaseMap ->
+                 GHC.Base.$fApplicativeIO_$sap
+                   @ b
+                   @ a13
+                   ((Control.Monad.Trans.Resource.Internal.$fFunctorResourceT_$cfmap
+                       @ GHC.Types.IO
+                       GHC.Base.$fFunctorIO
+                       @ a13
+                       @ (b -> a13)
+                       (GHC.Base.const @ a13 @ b)
+                       eta)
+                      `cast`
+                    (Control.Monad.Trans.Resource.Internal.NTCo:ResourceT[0]
+                         <GHC.Types.IO>_R <b -> a13>_N)
+                      eta2)
+                   (eta1
+                      `cast`
+                    (Control.Monad.Trans.Resource.Internal.NTCo:ResourceT[0]
+                         <GHC.Types.IO>_R <b>_N)
+                      eta2))
+                  `cast`
+                (forall a13 b.
+                 <Control.Monad.Trans.Resource.Internal.ResourceT
+                    GHC.Types.IO a13>_R
+                 ->_R <Control.Monad.Trans.Resource.Internal.ResourceT
+                         GHC.Types.IO b>_R
+                 ->_R Sym (Control.Monad.Trans.Resource.Internal.NTCo:ResourceT[0]
+                               <GHC.Types.IO>_R <a13>_N)) -}
+8d439c499874e21f50ece397ec342d2b
+  $s$$_$s$fApplicativeResourceT_$cpure ::
+    a -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,A><L,U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a13
+                   eta :: a13
+                   eta1 :: GHC.IORef.IORef
+                             Control.Monad.Trans.Resource.Internal.ReleaseMap
+                   eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (GHC.Base.returnIO @ a13 eta) `cast` (GHC.Types.NTCo:IO[0] <a13>_R)
+                   eta2)
+                  `cast`
+                (forall a13.
+                 <a13>_R
+                 ->_R Trans
+                          (<GHC.IORef.IORef
+                              Control.Monad.Trans.Resource.Internal.ReleaseMap>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <a13>_R))
+                          (Sym (Control.Monad.Trans.Resource.Internal.NTCo:ResourceT[0]
+                                    <GHC.Types.IO>_R <a13>_N))) -}
+746cae421ee30b1227a003a8feccf03c
+  $s$$_$s$fFunctorResourceT ::
+    GHC.Base.Functor
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  (Control.Monad.Trans.Resource.Internal.$fFunctorResourceT_$cfmap
+                     @ GHC.Types.IO
+                     GHC.Base.$fFunctorIO)
+                  (Control.Monad.Trans.Resource.Internal.$fFunctorResourceT_$c<$
+                     @ GHC.Types.IO
+                     GHC.Base.$fFunctorIO) -}
+5db33c2de24848a1f7a53c045c36ac5d
+  $s$$_$s$fMonadResourceT ::
+    GHC.Base.Monad
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  Routines.$s$$2
+                  (Control.Monad.Trans.Resource.Internal.$fMonadResourceT_$c>>=
+                     @ GHC.Types.IO
+                     Routines.$s$$2
+                     GHC.Base.$fMonadIO)
+                  (Control.Monad.Trans.Resource.Internal.$fMonadResourceT_$c>>
+                     @ GHC.Types.IO
+                     Routines.$s$$2
+                     GHC.Base.$fMonadIO)
+                  Routines.$s$$_$s$fMonadResourceT_$creturn
+                  Routines.$s$$1 -}
+4c6dd1183e52580443a815ab7ca97f6d
+  $s$$_$s$fMonadResourceT_$creturn ::
+    a -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,A><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Routines.$s$$_$s$fApplicativeResourceT_$cpure -}
+916672ea709277f03262336b77b77e96
+  $s$fMonadBasebResourceT ::
+    Control.Monad.Base.MonadBase
+      GHC.Types.IO
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ GHC.Types.IO
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  GHC.Base.$fApplicativeIO
+                  Routines.$s$$2
+                  GHC.Base.$fMonadIO
+                  Routines.$s$fMonadBasebResourceT1
+                  Routines.$s$fMonadBasebResourceT_$s$fMonadBasebResourceT_$cliftBase -}
+e0e045044e9933b4e3eccc0e53e6223c
+  $s$fMonadBasebResourceT1 ::
+    GHC.Base.Monad
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Routines.$s$$_$s$fMonadResourceT -}
+87697820961e9d4bc9bbec589dba5d45
+  $s$fMonadBasebResourceT_$s$fMonadBasebResourceT_$cliftBase ::
+    GHC.Types.IO α
+    -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO α
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,A>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ α eta :: GHC.Types.IO α ->
+                 let {
+                   eta1 :: GHC.Types.IO α = GHC.Base.id @ (GHC.Types.IO α) eta
+                 } in
+                 (\ ds :: GHC.IORef.IORef
+                            Control.Monad.Trans.Resource.Internal.ReleaseMap ->
+                  eta1)
+                   `cast`
+                 (Sym (Control.Monad.Trans.Resource.Internal.NTCo:ResourceT[0]
+                           <GHC.Types.IO>_R <α>_N))) -}
+174d81c96a507c00d334c3f469f32ec5
+  $s$fMonadIOResourceT ::
+    Control.Monad.IO.Class.MonadIO
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  Routines.$s$fMonadBasebResourceT1
+                  Routines.$s$fMonadBasebResourceT_$s$fMonadBasebResourceT_$cliftBase -}
+f3d6682d797a9922e90898b163a5151e
+  $s$fMonadResourceResourceT ::
+    Control.Monad.Trans.Resource.Internal.MonadResource
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  Routines.$s$fMonadResourceResourceT3
+                  Routines.$s$fMonadResourceResourceT2
+                  Routines.$s$$2
+                  Routines.$s$fMonadResourceResourceT1
+                  (Control.Monad.Trans.Resource.Internal.$fMonadResourceResourceT_$cliftResourceT
+                     @ GHC.Types.IO
+                     Routines.$s$fMonadResourceResourceT3
+                     Routines.$s$fMonadResourceResourceT2
+                     Routines.$s$$2
+                     Routines.$s$fMonadResourceResourceT1
+                     Control.Monad.Catch.$fMonadThrowIO
+                     Control.Monad.Base.$fMonadBaseIOIO
+                     Control.Monad.IO.Class.$fMonadIOIO
+                     GHC.Base.$fApplicativeIO) -}
+9cc8ef3449185b149935c38767eefda1
+  $s$fMonadResourceResourceT1 ::
+    Control.Monad.Base.MonadBase
+      GHC.Types.IO
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Routines.$s$fMonadBasebResourceT -}
+6a1cb51b0c469e595b68432644547303
+  $s$fMonadResourceResourceT2 ::
+    Control.Monad.IO.Class.MonadIO
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Routines.$s$fMonadIOResourceT -}
+2566f10f7fd0450e9b960b62cc996825
+  $s$fMonadResourceResourceT3 ::
+    Control.Monad.Catch.MonadThrow
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Routines.$s$fMonadResourceResourceT_$s$fMonadThrowResourceT -}
+e25ad24c51a40ba06fd6c0cc4ebde159
+  $s$fMonadResourceResourceT_$s$fMonadThrowResourceT ::
+    Control.Monad.Catch.MonadThrow
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  Routines.$s$fMonadBasebResourceT1
+                  Routines.$s$fMonadResourceResourceT_$s$fMonadThrowResourceT_$cthrowM -}
+d45bf32a5e6cef61fcb41c0ebf46b6fc
+  $s$fMonadResourceResourceT_$s$fMonadThrowResourceT_$cthrowM ::
+    GHC.Exception.Exception e =>
+    e -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <B,1*U(A,A,1*C1(U),A,A)><B,U><B,A><B,U>b,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ e
+                   @ a13
+                   eta :: GHC.Exception.Exception e
+                   x :: e
+                   eta1 :: GHC.IORef.IORef
+                             Control.Monad.Trans.Resource.Internal.ReleaseMap
+                   eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (GHC.IO.throwIO @ e @ a13 eta x)
+                   `cast`
+                 (GHC.Types.NTCo:IO[0] <a13>_R)
+                   eta2)
+                  `cast`
+                (forall e a13.
+                 <GHC.Exception.Exception e>_R
+                 ->_R <e>_R
+                 ->_R Trans
+                          (<GHC.IORef.IORef
+                              Control.Monad.Trans.Resource.Internal.ReleaseMap>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <a13>_R))
+                          (Sym (Control.Monad.Trans.Resource.Internal.NTCo:ResourceT[0]
+                                    <GHC.Types.IO>_R <a13>_N))) -}
+863b8cf0c2d2f3fb1786bc331306cac4
+  imdb :: GHC.IO.FilePath -> GHC.IO.FilePath -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <L,U><L,U> -}
+7e103017799947db4610a8e38e43fd4e
+  path1 :: GHC.IO.FilePath
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "/Users/lingxiao/Documents/NLP/Datasets/Toy/imdb_words_short.txt"#) -}
+07c45eb1a5eac97d2d94fea9d326ad54
+  process ::
+    GHC.Base.Monad m =>
+    Data.Conduit.Internal.Conduit.Conduit
+      Data.ByteString.Internal.ByteString
+      m
+      Data.ByteString.Internal.ByteString
+  {- Arity: 2, Strictness: <L,U(A,C(C1(U)),C(C1(U)),C(U),A)><L,C(U)>,
+     Unfolding: InlineRule (0, True, True)
+                Routines.process2
+                  `cast`
+                (forall (m :: * -> *).
+                 <GHC.Base.Monad m>_R
+                 ->_R Sym (Data.Conduit.Internal.Conduit.NTCo:ConduitM[0]
+                               <Data.ByteString.Internal.ByteString>_N
+                               <Data.ByteString.Internal.ByteString>_N
+                               <m>_N
+                               <()>_R)) -}
+2ba7735d870bdb3029372d782099523e
+  process1 ::
+    (()
+     -> Data.Conduit.Internal.Pipe.Pipe
+          Data.ByteString.Internal.ByteString
+          Data.ByteString.Internal.ByteString
+          Data.ByteString.Internal.ByteString
+          ()
+          (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+          b1)
+    -> Data.Conduit.Internal.Pipe.Pipe
+         Data.ByteString.Internal.ByteString
+         Data.ByteString.Internal.ByteString
+         Data.ByteString.Internal.ByteString
+         ()
+         (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+         b1
+  {- Arity: 1, Strictness: <L,C(U)> -}
+3bb50181411906d08b0ebda0f504e302
+  process2 ::
+    GHC.Base.Monad m =>
+    forall b.
+    (()
+     -> Data.Conduit.Internal.Pipe.Pipe
+          Data.ByteString.Internal.ByteString
+          Data.ByteString.Internal.ByteString
+          Data.ByteString.Internal.ByteString
+          ()
+          m
+          b)
+    -> Data.Conduit.Internal.Pipe.Pipe
+         Data.ByteString.Internal.ByteString
+         Data.ByteString.Internal.ByteString
+         Data.ByteString.Internal.ByteString
+         ()
+         m
+         b
+  {- Arity: 2,
+     Strictness: <L,U(A,C(C1(U)),C(C1(U)),C(U),A)><L,C(U)> -}
+20436f00ae8d08c3d67134ebb7128de4
+  yelp :: GHC.IO.FilePath -> GHC.IO.FilePath -> GHC.Types.IO ()
+  {- Strictness: b,
+     Unfolding: InlineRule (0, True, True)
+                (GHC.Err.undefined
+                   @ (GHC.IO.FilePath -> GHC.IO.FilePath -> GHC.Types.IO ())) -}
+"SPEC/Routines $fApplicativeResourceT @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                           (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                              GHC.Types.IO)
+                                                            $dApplicative :: GHC.Base.Applicative
+                                                                               GHC.Types.IO
+  Control.Monad.Trans.Resource.Internal.$fApplicativeResourceT @ GHC.Types.IO
+                                                               $dFunctor
+                                                               $dApplicative
+  = Routines.$s$$_$s$fApplicativeResourceT
+"SPEC/Routines $fApplicativeResourceT_$c*> @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                   GHC.Types.IO)
+                                                                 $dApplicative :: GHC.Base.Applicative
+                                                                                    GHC.Types.IO
+  Control.Monad.Trans.Resource.Internal.$fApplicativeResourceT_$c*> @ GHC.Types.IO
+                                                                    $dFunctor
+                                                                    $dApplicative
+  = Routines.$s$$_$s$fApplicativeResourceT_$c*>
+"SPEC/Routines $fApplicativeResourceT_$c<* @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                   GHC.Types.IO)
+                                                                 $dApplicative :: GHC.Base.Applicative
+                                                                                    GHC.Types.IO
+  Control.Monad.Trans.Resource.Internal.$fApplicativeResourceT_$c<* @ GHC.Types.IO
+                                                                    $dFunctor
+                                                                    $dApplicative
+  = Routines.$s$$_$s$fApplicativeResourceT_$c<*
+"SPEC/Routines $fApplicativeResourceT_$cpure @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                  (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                     GHC.Types.IO)
+                                                                   $dApplicative :: GHC.Base.Applicative
+                                                                                      GHC.Types.IO
+  Control.Monad.Trans.Resource.Internal.$fApplicativeResourceT_$cpure @ GHC.Types.IO
+                                                                      $dFunctor
+                                                                      $dApplicative
+  = Routines.$s$$_$s$fApplicativeResourceT_$cpure
+"SPEC/Routines $fFunctorResourceT @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                       GHC.Types.IO
+  Control.Monad.Trans.Resource.Internal.$fFunctorResourceT @ GHC.Types.IO
+                                                           $dFunctor
+  = Routines.$s$$_$s$fFunctorResourceT
+"SPEC/Routines $fMonadBasebResourceT @ IO @ IO" [ALWAYS] forall $dApplicative :: GHC.Base.Applicative
+                                                                                   GHC.Types.IO
+                                                                $dApplicative1 :: GHC.Base.Applicative
+                                                                                    (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                       GHC.Types.IO)
+                                                                $dMonad :: GHC.Base.Monad
+                                                                             GHC.Types.IO
+                                                                $dMonad1 :: GHC.Base.Monad
+                                                                              (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                 GHC.Types.IO)
+                                                                $dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                 GHC.Types.IO
+                                                                                 GHC.Types.IO
+  Control.Monad.Trans.Resource.Internal.$fMonadBasebResourceT @ GHC.Types.IO
+                                                              @ GHC.Types.IO
+                                                              $dApplicative
+                                                              $dApplicative1
+                                                              $dMonad
+                                                              $dMonad1
+                                                              $dMonadBase
+  = Routines.$s$fMonadBasebResourceT
+"SPEC/Routines $fMonadBasebResourceT_$cliftBase @ IO @ IO" [ALWAYS] forall $dApplicative :: GHC.Base.Applicative
+                                                                                              GHC.Types.IO
+                                                                           $dApplicative1 :: GHC.Base.Applicative
+                                                                                               (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                  GHC.Types.IO)
+                                                                           $dMonad :: GHC.Base.Monad
+                                                                                        GHC.Types.IO
+                                                                           $dMonad1 :: GHC.Base.Monad
+                                                                                         (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                            GHC.Types.IO)
+                                                                           $dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                            GHC.Types.IO
+                                                                                            GHC.Types.IO
+  Control.Monad.Trans.Resource.Internal.$fMonadBasebResourceT_$cliftBase @ GHC.Types.IO
+                                                                         @ GHC.Types.IO
+                                                                         $dApplicative
+                                                                         $dApplicative1
+                                                                         $dMonad
+                                                                         $dMonad1
+                                                                         $dMonadBase
+  = Routines.$s$fMonadBasebResourceT_$s$fMonadBasebResourceT_$cliftBase
+"SPEC/Routines $fMonadIOResourceT @ IO" [ALWAYS] forall $dMonad :: GHC.Base.Monad
+                                                                     (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                        GHC.Types.IO)
+                                                        $dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                       GHC.Types.IO
+  Control.Monad.Trans.Resource.Internal.$fMonadIOResourceT @ GHC.Types.IO
+                                                           $dMonad
+                                                           $dMonadIO
+  = Routines.$s$fMonadIOResourceT
+"SPEC/Routines $fMonadResourceResourceT @ IO" [ALWAYS] forall $dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                   GHC.Types.IO)
+                                                              $dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                             (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                GHC.Types.IO)
+                                                              $dApplicative :: GHC.Base.Applicative
+                                                                                 (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                    GHC.Types.IO)
+                                                              $dMonadBase :: Control.Monad.Base.MonadBase
+                                                                               GHC.Types.IO
+                                                                               (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                  GHC.Types.IO)
+                                                              $dMonadThrow1 :: Control.Monad.Catch.MonadThrow
+                                                                                 GHC.Types.IO
+                                                              $dMonadBase1 :: Control.Monad.Base.MonadBase
+                                                                                GHC.Types.IO
+                                                                                GHC.Types.IO
+                                                              $dMonadIO1 :: Control.Monad.IO.Class.MonadIO
+                                                                              GHC.Types.IO
+                                                              $dApplicative1 :: GHC.Base.Applicative
+                                                                                  GHC.Types.IO
+  Control.Monad.Trans.Resource.Internal.$fMonadResourceResourceT @ GHC.Types.IO
+                                                                 $dMonadThrow
+                                                                 $dMonadIO
+                                                                 $dApplicative
+                                                                 $dMonadBase
+                                                                 $dMonadThrow1
+                                                                 $dMonadBase1
+                                                                 $dMonadIO1
+                                                                 $dApplicative1
+  = Routines.$s$fMonadResourceResourceT
+"SPEC/Routines $fMonadResourceT @ IO" [ALWAYS] forall $dApplicative :: GHC.Base.Applicative
+                                                                         (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                            GHC.Types.IO)
+                                                      $dMonad :: GHC.Base.Monad GHC.Types.IO
+  Control.Monad.Trans.Resource.Internal.$fMonadResourceT @ GHC.Types.IO
+                                                         $dApplicative
+                                                         $dMonad
+  = Routines.$s$$_$s$fMonadResourceT
+"SPEC/Routines $fMonadResourceT_$creturn @ IO" [ALWAYS] forall $dApplicative :: GHC.Base.Applicative
+                                                                                  (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                     GHC.Types.IO)
+                                                               $dMonad :: GHC.Base.Monad
+                                                                            GHC.Types.IO
+  Control.Monad.Trans.Resource.Internal.$fMonadResourceT_$creturn @ GHC.Types.IO
+                                                                  $dApplicative
+                                                                  $dMonad
+  = Routines.$s$$_$s$fMonadResourceT_$creturn
+"SPEC/Routines $fMonadThrowResourceT @ IO" [ALWAYS] forall $dMonad :: GHC.Base.Monad
+                                                                        (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                           GHC.Types.IO)
+                                                           $dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                             GHC.Types.IO
+  Control.Monad.Trans.Resource.Internal.$fMonadThrowResourceT @ GHC.Types.IO
+                                                              $dMonad
+                                                              $dMonadThrow
+  = Routines.$s$fMonadResourceResourceT_$s$fMonadThrowResourceT
+"SPEC/Routines $fMonadThrowResourceT_$cthrowM @ IO" [ALWAYS] forall $dMonad :: GHC.Base.Monad
+                                                                                 (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                    GHC.Types.IO)
+                                                                    $dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                      GHC.Types.IO
+  Control.Monad.Trans.Resource.Internal.$fMonadThrowResourceT_$cthrowM @ GHC.Types.IO
+                                                                       $dMonad
+                                                                       $dMonadThrow
+  = Routines.$s$fMonadResourceResourceT_$s$fMonadThrowResourceT_$cthrowM
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

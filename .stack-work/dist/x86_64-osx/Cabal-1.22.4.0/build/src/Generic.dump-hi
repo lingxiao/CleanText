@@ -1,0 +1,63 @@
+
+==================== FINAL INTERFACE ====================
+2016-08-10 21:59:47.898674 UTC
+
+interface Clean_0pEjWvA4UZU9s2xRj7FCxW:Generic 7102
+  interface hash: e3d52bd2159c20d1ad05618547efe559
+  ABI hash: 7e3bf9c460b42184f2da001ee2e48552
+  export-list hash: c5c9c383c58f4901196683f3eba05477
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 56b9a755d22be00f2eba50f3628a69c7
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Generic.foldStrip
+module dependencies:
+package dependencies: array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ
+                      base-4.8.1.0* binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH*
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0 text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh*
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Functor.Identity
+                         base-4.8.1.0:Data.Monoid base-4.8.1.0:Data.Type.Equality
+                         base-4.8.1.0:Data.Void base-4.8.1.0:GHC.Exts
+                         base-4.8.1.0:GHC.Generics
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString 4fc4526fe2a6e2567922115e2a8a149a
+import  -/  text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text e74c40da976ee643cb7d3cc6a9b83643
+import  -/  text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Internal 9962d17090d0f709d927f3301e17e973
+93b5e5a05b1b496f71f18813521dd7b2
+  $wfoldStrip ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int# -> GHC.Prim.Int# -> Data.Text.Internal.Text
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>, Inline: [0] -}
+5b5116ce16cf3869d4abf63b0021c132
+  foldStrip :: Data.Text.Internal.Text -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*U(U,U,U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: Data.Text.Internal.Text ->
+                 case w of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                 Generic.$wfoldStrip ww1 ww2 ww3 }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
