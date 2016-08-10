@@ -37,7 +37,6 @@ imdb f1 f2 = runResourceT $ sourceFile f1 $$ process =$ sinkFile f2
 process :: Monad m => Conduit ByteString m ByteString
 process  = fromByte =$ (C.map foldStrip) =$ toByte
 
-
 {-----------------------------------------------------------------------------
   Clean Yelp Data
 ------------------------------------------------------------------------------}
